@@ -2,11 +2,9 @@ package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableEurekaServer
 @SpringBootTest
-class EurekaServerApplicationTests {
+class ServiceMeApplicationTests {
 
     @Test
     void contextLoads() {
